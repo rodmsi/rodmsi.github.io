@@ -176,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
 										url(./bgmarble2.jpg);
 	background-attachment: fixed;
-	background-position: center 10px;
 	min-height: 500px;
 	color: white;
 	background-repeat: no-repeat;
@@ -358,9 +357,10 @@ footer {
 		padding: 30px;
 	}
 
-	.cool-stuff-row .text-container {
+	/*.cool-stuff-row .text-container {
 		padding: 10px;
-	}
+	}*/
+
 	.main-image-container {
 		top: 25%;
 	}
