@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>SOS Company</title>
+	</head>
+	<body>
+		<!-- Outer navigation -->
+		<div class="outer-navigation">
+			<div class="nav-content">
+				<nav class="navigation" role="navigation">
+					<ul class="left-navigation">
+						<li><a href="./">Home</a></li>
+						<li><a href="./about.html">Sobre</a></li>
+					</ul>
+
+					<div class="right navigation">
+						<div class="image-container">
+							<img src="./logo.png">
+						</div>
+					</div>
+				</nav>
+
+				<div class="main-title-container">
+					<h1 class="main-title">SOS Company</h1>
+					<!-- unused
+					<button>Nossos serviços</button>
+					-->
+				</div>
+
+				<!-- Arrow-down -->
+				<div>
+					<i class="fa fa-solid fa-angle-down arrow-down-navigation" id="scroll-icon"></i>
+				</div>
+
+				<div class="mobile-navigation">
+					<i class="fa-solid fa-bars"></i>
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">Sobre nós</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<main>
+			<div class="cool-stuff-row">
+
+				<div class="img-container">
+					<img src="./assistance.jpg"/>
+				</div>
+
+				<div class="text-container">
+					<h2>Something cool</h2>
+					<p>
+						cool stuff only cool stuff here no cap
+					</p>
+				</div>
+
+			</div>
+			<div class="cool-stuff-row">
+
+				<div class="text-container">
+					<h2>More cool stuff</h2>
+					<p>
+						cool stuff more cool stuff yeah yeah
+					</p>
+				</div>
+
+				<div class="img-container">
+					<img src="./assistance.jpg"/>
+				</div>
+
+			</div>
+
+			<div class="our-mission">
+				<h2 class="text-center">Nossa missão</h2>
+				<p>
+					valores foda tudo nosso nada deles
+				</p>
+				<button onclick="location.href='./about.html#mission'">Saiba mais</button>
+			</div>
+
+			<div class="contact-form">
+				<form>
+					<h2>Contato</h2>
+					<label for="name">Seu nome: </label>
+					<input type="text" id="name" placeholder="Escreva aqui o seu nome" required/>
+					<br/>
+
+					<label for="email">Seu email: </label>
+					<input type="email" id="email" placeholder="Escreva aqui o seu email" required/>
+					<br/>
+
+					<label for="message">Sua mensagem: </label>
+					<textarea id="message" rows="8" required></textarea>
+					<button type="submit">Enviar mensagem</button>
+		</main>
+		
+		<footer>
+			<p>&copy; sos company</p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
