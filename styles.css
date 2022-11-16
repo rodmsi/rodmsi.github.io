@@ -188,9 +188,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 }
 
-.our-mission {
-	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+.our-mission:before {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
 										url(./bgmarble2.jpg);
+        height: 100vh;
+}
+
+.our-mission {
 	background-attachment: fixed;
 	min-height: 500px;
 	color: white;
